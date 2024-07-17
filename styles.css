@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #b7dcea;
+}
+header {
+    text-align: center;
+    background-color: #104268;
+    color: #fff;
+    padding: 20px;
+}
+
+/* ABOUT ME Section */
+#about {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 10px solid #ddd;
+}
+
+#about h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#about p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Projects Section */
+#projects {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 10px solid #ddd;
+}
+
+.project-card {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.project-card img {
+    max-width: 100px;
+    margin-right: 20px;
+}
+
+.project-details {
+    flex: 1;
+}
+
+.project-details h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.project-details p {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.project-details a {
+    display: inline-block;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #0074d9;
+}
+
+/* Contact Me Section */
+#contact {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 10px solid #ddd;
+}
+
+#contact h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#contact p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
+#contact a {
+    text-decoration: none;
+    color: #0074d9;
+}
+
+/* Resume Button Styles */
+.resume-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d8e6f4;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 50px;
+    margin-top: 10px;
+}
+
+.resume-button:hover {
+    background-color: #7bb5e2;
+}
+

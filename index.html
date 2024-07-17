@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Your Portfolio</title>
+</head>
+<body>
+    <!-- Your content goes here -->
+</body>
+</html>
+
+<!--HEADER section-->
+<header>
+    <h1>Soumya Ranjan Dash</h1>
+    <p>Student | Programmer | Web Developer</p>
+</header>
+
+<!--ABOUT ME-->
+<section id="about">
+    <h2>About Me</h2>
+    <p>A highly motivated final-year BSc Information Technology Management student with strong technical skills in computer programming, database systems and data structures and algorithms (DSA). Experienced in both technical and management aspects of IT. Eager to contribute to innovative projects and gain professional experience in a dynamic tech environment through internships and full-time positions.</p>
+</section>
+
+<!--PROJECTS-->
+<section id="projects">
+    <h2>My Projects</h2>
+    <section class="project-card">
+        <img src="/personicon.jpg" alt="Project Image">
+        <div class="project-details">
+            <h3>Personal Portfolio</h3>
+            <p>Basic portfolio created with html,css. Showcasing projects, contacts and introduction.</p>
+            <a href="project-github-link">GitHub</a>
+        </div>
+    </section>
+    <section class="project-card">
+        <img src="/to-do list iamge.jpg" alt="Project Image">
+        <div class="project-details">
+            <h3>To-Do-List</h3>
+            <p>A basic To-Do app enabling users to add daily tasks. Users can add new items, update them, mark them complete, etc.</p>
+            <a href="project-github-link">GitHub</a>
+        </div>
+    </section>
+    <section class="project-card">
+        <img src="/java-random-numbers.jpg" alt="Project Image">
+        <div class="project-details">
+            <h3>Random Number Generator</h3>
+            <p>A Java-based application that generates random numbers within a specified range. It offers both integer and floating-point randomization, and includes features for user input, display, and statistical analysis.</p>
+            <a href="project-github-link">GitHub</a>
+        </div>
+    </section>
+    
+</section>
+
+<!--CONTACT-->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: <a href="mailto:dashsoumyaranjan0102@gmail.com">dashsoumyaranjan0102gmail.com</a></p>
+    <p>LinkedIn: <a href="http://www.linkedin.com/in/soumya-ranjan-dash-01b4b02a8">/soumya-ranjan-dash</a></p>
+</section>
+
+
+<section id="contact">
+    <h2>My Resume</h2>
+    <form action="process_form.php" method="POST">
+        <!-- Add the resume download button -->
+        <a href="C:/Users/soumy/Desktop/cipherbyte/my_portfolio/Soumya-Resume pdf.pdf" download class="resume-button">Download Resume</a>
+    </form>
+</section>
+
+<section id="contact">
+    <h2>Message Me</h2>
+    <form action="process_form.php" method="POST">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+        <br><br>
+        <button type="submit">Send Message</button>
+    </form>
+</section>
