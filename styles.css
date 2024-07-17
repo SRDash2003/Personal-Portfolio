@@ -89,11 +89,27 @@ header {
     color: #0074d9;
 }
 
-/* Resume Button Styles */
+#resume {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 10px solid #ddd;
+}
+
+#resume h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+#resume p {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.5;
+}
+
 .resume-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #d8e6f4;
+    background-color: #0074d9;
     color: #fff;
     text-decoration: none;
     border-radius: 50px;
@@ -101,6 +117,7 @@ header {
 }
 
 .resume-button:hover {
-    background-color: #7bb5e2;
+    background-color: #005ea6;
 }
+
 
